@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalInformation"
+    android:orientation="vertical"
+    android:background="@color/colorOtoGaleri"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgileriniz Güncelleyebilirsiniz"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingTop="20dp">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/emailUpdateEditText"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Şifre: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/passwordUpdateEditText"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:selectAllOnFocus="true">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/updateButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:textColor="#fff"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="GÜNCELLE">
+
+    </Button>
+
+</LinearLayout>

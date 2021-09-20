@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".CarInformation">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#203040"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Araç Bilgilerini Giriniz"
+        ></TextView>
+
+    <Spinner
+        android:id="@+id/ilanTuruSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/kimdenSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <EditText
+        android:id="@+id/fiyatEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fiyatını Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <EditText
+        android:id="@+id/markaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Markasını Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <EditText
+        android:id="@+id/seriEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Serisini Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <EditText
+        android:id="@+id/modelEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelini Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <EditText
+        android:id="@+id/yilEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yılını Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+
+    <EditText
+        android:id="@+id/vitesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vites Bilgisini Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+
+    <EditText
+        android:id="@+id/kmEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="KM Bilgisini Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <EditText
+        android:id="@+id/kasaTipiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kasa Tipi Bilgisini Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <EditText
+        android:id="@+id/motorGücüEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motor Gücünü Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <Button
+        android:id="@+id/carInformationButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:textColor="#fff"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="İLERİ" />
+
+            <Button
+                android:id="@+id/carInformationButonBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_buton_back"
+                android:textColor="#fff"
+                android:layout_gravity="start"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="16dp"
+                android:enabled="true"
+                android:text="GERİ" />
+        </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

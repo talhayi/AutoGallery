@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".UploadImages">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#203040"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="İlanı Yayınladıktan Sonra Resim Ekleyebilirsiniz"
+        ></TextView>
+            <Button
+                android:id="@+id/postAdvertiseButon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_buton_back"
+                android:textColor="#fff"
+                android:layout_gravity="start"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="16dp"
+                android:enabled="true"
+                android:text="İLANI YAYINLA" />
+    <Button
+        android:id="@+id/selectImageButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:textColor="#fff"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="RESİM SEÇ" />
+
+    <ImageView
+        android:id="@+id/advertiseImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/addImageButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:textColor="#fff"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="RESİM EKLE" />
+
+            <Button
+                android:id="@+id/uploadComeBackButon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_buton_back"
+                android:textColor="#fff"
+                android:layout_gravity="start"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="16dp"
+                android:enabled="true"
+                android:text="ANA EKRANA DÖN" />
+            <Button
+                android:id="@+id/uploadLogoutButon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_buton_back"
+                android:textColor="#fff"
+                android:layout_gravity="start"
+                android:layout_marginStart="48dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="16dp"
+                android:enabled="true"
+                android:text="ÇIKIŞ YAP" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

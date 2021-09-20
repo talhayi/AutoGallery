@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/mainActivitySlider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/mainActivitySliderFavori"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F2F1EF">
+
+        </androidx.viewpager.widget.ViewPager>
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/mainActivitySliderCircle"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            app:ci_drawable="@color/colorOtoGaleri"
+            app:ci_drawable_unselected="@color/colorOtoGaleriActionBar"
+            android:layout_height="40dp">
+
+        </me.relex.circleindicator.CircleIndicator>
+
+    </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainActivitySlider">
+<LinearLayout
+    android:id="@+id/menu"
+    android:layout_below="@+id/sliderLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/advertisesButon"
+            android:background="@drawable/menu_buton_back"
+            android:textColor="#4387B5"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:layout_margin="5dp"
+            android:text="İlanlar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/advertiseButon"
+            android:background="@drawable/menu_buton_back"
+            android:textColor="#4387B5"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:layout_margin="5dp"
+            android:text="İlan Ver"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/myAdvertiseButon"
+            android:background="@drawable/menu_buton_back"
+            android:textColor="#4387B5"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:layout_margin="5dp"
+            android:text="İlanlarım"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp">
+
+        </Button>
+
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/personalInformationButon"
+            android:background="@drawable/menu_buton_back"
+            android:textColor="#4387B5"
+            android:textStyle="bold"
+            android:paddingBottom="5dp"
+            android:layout_margin="5dp"
+            android:text="Kişisel Bilgiler"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp">
+
+        </Button>
+
+            </LinearLayout>
+-->
+    <Button
+        android:id="@+id/logoutButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:textColor="#fff"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="ÇIKIŞ YAP" />
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

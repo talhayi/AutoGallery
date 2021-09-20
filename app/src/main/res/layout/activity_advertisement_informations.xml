@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".AdvertisementInformations">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#203040"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="İlan Bilgilerini Giriniz"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/ilanBaslikEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İlan Başlığını Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <EditText
+        android:id="@+id/ilanAciklamaEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon Numaranızı Giriniz"
+        android:textStyle="bold"
+        android:textColorHint="#203040"></EditText>
+
+    <Button
+        android:id="@+id/advertisementInformationButon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:textColor="#fff"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="İLERİ" />
+
+    <Button
+        android:id="@+id/advertisementInformationButonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:textColor="#fff"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:enabled="true"
+        android:text="GERİ" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#EEEEEE"
+    android:padding="5dp"
+    android:layout_margin="3dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ilanlarimIlanResim"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="100dp">
+
+    </ImageView>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp">
+    <TextView
+        android:id="@+id/ilanlarimIlanBaslik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Deneme"
+        android:textColor="#0F3057"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ilanlarimIlanFiyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:text="Deneme"
+        android:textColor="#0F3057"
+        android:textSize="15dp">
+
+    </TextView>
+    </RelativeLayout>
+
+
+</LinearLayout>
