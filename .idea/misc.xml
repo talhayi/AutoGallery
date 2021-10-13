@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_address_information.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_advertisement_informations.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_advertises.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_car_information.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_detail_advertise.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_fuel_information.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_login.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_main.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_my_advertise.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_personal_information.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_register.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/activity_upload_images.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/advertiseslayout.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/alertdialoglayout.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/myadvertiselayout.xml" value="0.15260416666666668" />
+        <entry key="..\:/talha/ANDROID/OtoGaleri/app/src/main/res/layout/sliderlayout.xml" value="0.15260416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
