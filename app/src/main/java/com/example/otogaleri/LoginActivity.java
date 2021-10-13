@@ -71,6 +71,8 @@ public class LoginActivity extends AppCompatActivity {
                 String email= emailEditText.getText().toString();
                 String password = passwordEditText.getText().toString();
 
+                System.out.println(email);
+
                 requestLogin(email,password);
 
             }
@@ -103,7 +105,9 @@ public class LoginActivity extends AppCompatActivity {
 
                             Toast.makeText(getApplicationContext(), "Mailiniz veya Şifreniz Hatalıdır", Toast.LENGTH_LONG).show();
                         }
-                    }
+                    }else {
+                            Toast.makeText(getApplicationContext(), "Sunucuya erişelemiyor", Toast.LENGTH_LONG).show();
+                }
                 }
 
 

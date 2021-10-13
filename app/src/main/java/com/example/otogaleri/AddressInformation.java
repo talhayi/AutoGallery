@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.example.otogaleri.Models.AdvertiseResultPojo;
 
-public class AddressInformation extends AppCompatActivity {
+public class    AddressInformation extends AppCompatActivity {
 
     EditText sehirEditText,ilceEditText;
     Button addressInformationButon,addressInformationButonBack;
